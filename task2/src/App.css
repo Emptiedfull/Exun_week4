@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 10vh;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    width: 100vw;
+}
+
+.Tasks_box{
+    width: 50vw;
+}
+
+.add_task{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.add_task input{
+    width: 80%;
+    height: 5vh;
+    font-size: 4vh;
+}
+.add_task button{
+    width: 20%;
+    height: 6vhw;
+    font-size: 4vh;
+    border: none;
+}
+
+ul{
+    width: 100%;
+    padding-left: 0%;
+}
+
+

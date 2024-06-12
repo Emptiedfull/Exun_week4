@@ -1,0 +1,72 @@
+body{
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30vh;
+}
+img{
+ height: 15vh;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.description{
+  font-size: 4vh;
+
+  
+
+}
+
+.attributes{
+  padding-top: 8vh;
+  justify-content: center;
+  align-items: start;
+  
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+}
+.temp{
+  font-size: 13vh;
+  line-height: 10vh;
+  font-weight: 100;
+  margin: 0;
+  padding: 0%;
+  
+}
+
+.major{
+  display: flex;
+  justify-content: start;
+}
+
+.minor{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: start;
+
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  padding-top: 0;
+  font-size: 15vh;
+}
